@@ -1,0 +1,33 @@
+:root{
+    --primary:#212121;
+    --secondary:#fff;
+    --pink:pink;
+}
+.taskElement{
+display: flex;
+justify-content: space-between;
+background-color: var(--primary);
+height: 4rem;
+align-items: center;
+padding: 0.6rem;
+}
+
+.Task{
+flex:1;
+outline: none;
+appearance: none;
+border: none;
+background: none;
+}
+.Task-button{
+height: 2rem;
+background: none;
+border: none;
+font-size: 1.3rem;
+color: var(--secondary);
+cursor: pointer;
+
+}
+.Task::placeholder{
+    padding: 1rem;
+}
